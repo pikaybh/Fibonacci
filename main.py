@@ -3,7 +3,7 @@ from functools import lru_cache
 from typing import (Callable, Union)
 import argparse
 
-
+# Parser
 parser = argparse.ArgumentParser()
 parser.add_argument("--min", type=int, default=-50, help=f"Minimum number in a range of x. (defalut: -50)")
 parser.add_argument("--max", type=int, default=50, help=f"Maximum number in a range of x. (defalut: 50)")

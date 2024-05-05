@@ -9,6 +9,6 @@ My assumption is this:
     then $Fibonacci(n-2) = Fibonacci(n) - Fibonacci(n-1)$.
 2. Let’s say $Fibonacci(0) = 0$.
 
-As a result, the range oscillates in the area where the domain has negative values, and the range diverges to positive infinity in the area where the domain has positive values.
+As a result, ***the range oscillates in the area where the domain has negative values***, and ***the range diverges to positive infinity in the area where the domain has positive values***. 
 
 The next question is what happens if the domain is a real number.
