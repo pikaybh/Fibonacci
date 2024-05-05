@@ -5,8 +5,9 @@ Although Fibonacci rules are usually a sequence whose domain is a natural number
 My assumption is this:
 
 1. If $Fibonacci(n-2) + Fibonacci(n-1) = Fibonacci(n), $
+    
     then $Fibonacci(n-2) = Fibonacci(n) - Fibonacci(n-1)$.
-2. Let’s say Fibonacci(0) = 0.
+2. Let’s say $Fibonacci(0) = 0$.
 
 As a result, the range oscillates in the area where the domain has negative values, and the range diverges to positive infinity in the area where the domain has positive values.
 
